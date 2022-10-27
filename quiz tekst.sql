@@ -3,20 +3,20 @@ SELECT * FROM questions q JOIN answers a ON q.id=a.questions_id
 --Pytania
 3odp
 
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):10
-INSERT INTO `questions`(`description`) VALUES (`15+5=?`):20
-INSERT INTO `questions`(`description`) VALUES (`25+5=?`):30
+INSERT INTO `questions`(`description`) VALUES ("5+5=?");
+INSERT INTO `questions`(`description`) VALUES ("15+5=?");
+INSERT INTO `questions`(`description`) VALUES ("25+5=?");
 5odp
 
-INSERT INTO `questions`(`description`) VALUES (`15+10=?`):25
-INSERT INTO `questions`(`description`) VALUES (`25+25=?`):50
+INSERT INTO `questions`(`description`) VALUES ("15+10=?");
+INSERT INTO `questions`(`description`) VALUES ("25+25=?");
 4odp
 
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):40
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):50
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):60
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):70
-INSERT INTO `questions`(`description`) VALUES (`5+5=?`):80
+INSERT INTO `questions`(`description`) VALUES ("20+20=?");
+INSERT INTO `questions`(`description`) VALUES ("40+10=?");
+INSERT INTO `questions`(`description`) VALUES ("25+35=?");
+INSERT INTO `questions`(`description`) VALUES ("5+65=?");
+INSERT INTO `questions`(`description`) VALUES ("45+35=?");
 
 
 
